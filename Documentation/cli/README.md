@@ -499,12 +499,13 @@ Aliases: p
 Rebuild the target executable and restarts it. It does not work if the executable was not built by delve.
 
 
-## regs
+## 
+	
 Print contents of CPU registers.
 
 	regs [-a]
 
-Argument -a shows more registers. Individual registers can also be displayed by 'print' and 'display'. See [Documentation/cli/expr.md.](//github.com/go-delve/delve/tree/master/Documentation/cli/expr.md.)
+Argument -a shows more registers. Individual registers can also be displayed by 'print' and 'display'. See [Documentation/cli/expr.md.](//github.com/go-delve/delve/tree/master/Documentation/cli/expr.md)
 
 
 ## restart
